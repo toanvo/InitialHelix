@@ -1,0 +1,82 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2036
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configuration", "Configuration", "{B6D7174C-9D72-40A8-A7D9-5A241BB0EDF9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Feature", "Feature", "{C48CF1C2-6372-4183-9B75-6DFD1A060117}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Foundation", "Foundation", "{4029E8CB-4231-4003-8642-01208BD2CE66}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Project", "Project", "{3E89E247-705D-4472-B817-C79FA145D2F1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Extensions", "Extensions", "{B9621D7E-BBD0-4CE5-AB93-425C7CEC2EDD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Styling", "Styling", "{2B5E15FD-3BF8-4E79-91C3-64E027A9E1A8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DependencyInjection", "DependencyInjection", "{A6784C45-F264-48F2-AE1A-D0596DA8A656}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Serialization", "Serialization", "{D975FF1D-74EB-416D-BEAB-651259B1DC05}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InitialHelix.Foundation.Serialization", "Foundation\Serialization\code\InitialHelix.Foundation.Serialization.csproj", "{8E4F34B8-85FD-4BBC-B2DB-758324B670A1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "InitialHelixSample", "InitialHelixSample", "{0E89C918-EC7F-4D90-9B11-DE659C7BDE66}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InitialHelix.Project.Website", "Project\InitialHelix\code\InitialHelix.Project.Website.csproj", "{564057E3-1CDD-40EA-A663-9ECBD1EA4586}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BaseModel", "BaseModel", "{38CA3DB4-C6B6-4C07-874B-338A350B43D7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InitialHelix.Foundation.Model", "Foundation\BaseModel\code\InitialHelix.Foundation.Model.csproj", "{8907EDF4-583E-4D21-AC20-3F5E3D0D37B0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InitialHelix.Foundation.DependencyInjection", "Foundation\DependencyInjection\code\InitialHelix.Foundation.DependencyInjection.csproj", "{FE459132-C24A-4716-ABBC-757DFB65B579}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InitialHelix.Foundation.SitecoreExtensions", "InitialHelix.Foundation.SitecoreExtensions\InitialHelix.Foundation.SitecoreExtensions.csproj", "{47AD51B4-1CDD-4B7A-A2F1-B955750EEAD5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8E4F34B8-85FD-4BBC-B2DB-758324B670A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E4F34B8-85FD-4BBC-B2DB-758324B670A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E4F34B8-85FD-4BBC-B2DB-758324B670A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E4F34B8-85FD-4BBC-B2DB-758324B670A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{564057E3-1CDD-40EA-A663-9ECBD1EA4586}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{564057E3-1CDD-40EA-A663-9ECBD1EA4586}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{564057E3-1CDD-40EA-A663-9ECBD1EA4586}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{564057E3-1CDD-40EA-A663-9ECBD1EA4586}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8907EDF4-583E-4D21-AC20-3F5E3D0D37B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8907EDF4-583E-4D21-AC20-3F5E3D0D37B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8907EDF4-583E-4D21-AC20-3F5E3D0D37B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8907EDF4-583E-4D21-AC20-3F5E3D0D37B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE459132-C24A-4716-ABBC-757DFB65B579}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE459132-C24A-4716-ABBC-757DFB65B579}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE459132-C24A-4716-ABBC-757DFB65B579}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE459132-C24A-4716-ABBC-757DFB65B579}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47AD51B4-1CDD-4B7A-A2F1-B955750EEAD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47AD51B4-1CDD-4B7A-A2F1-B955750EEAD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47AD51B4-1CDD-4B7A-A2F1-B955750EEAD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47AD51B4-1CDD-4B7A-A2F1-B955750EEAD5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B9621D7E-BBD0-4CE5-AB93-425C7CEC2EDD} = {4029E8CB-4231-4003-8642-01208BD2CE66}
+		{2B5E15FD-3BF8-4E79-91C3-64E027A9E1A8} = {4029E8CB-4231-4003-8642-01208BD2CE66}
+		{A6784C45-F264-48F2-AE1A-D0596DA8A656} = {4029E8CB-4231-4003-8642-01208BD2CE66}
+		{D975FF1D-74EB-416D-BEAB-651259B1DC05} = {4029E8CB-4231-4003-8642-01208BD2CE66}
+		{8E4F34B8-85FD-4BBC-B2DB-758324B670A1} = {D975FF1D-74EB-416D-BEAB-651259B1DC05}
+		{0E89C918-EC7F-4D90-9B11-DE659C7BDE66} = {3E89E247-705D-4472-B817-C79FA145D2F1}
+		{564057E3-1CDD-40EA-A663-9ECBD1EA4586} = {0E89C918-EC7F-4D90-9B11-DE659C7BDE66}
+		{38CA3DB4-C6B6-4C07-874B-338A350B43D7} = {4029E8CB-4231-4003-8642-01208BD2CE66}
+		{8907EDF4-583E-4D21-AC20-3F5E3D0D37B0} = {38CA3DB4-C6B6-4C07-874B-338A350B43D7}
+		{FE459132-C24A-4716-ABBC-757DFB65B579} = {A6784C45-F264-48F2-AE1A-D0596DA8A656}
+		{47AD51B4-1CDD-4B7A-A2F1-B955750EEAD5} = {B9621D7E-BBD0-4CE5-AB93-425C7CEC2EDD}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {103BDFE1-CD63-41F0-9566-590A2A9022CF}
+	EndGlobalSection
+EndGlobal
