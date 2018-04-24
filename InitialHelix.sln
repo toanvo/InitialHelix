@@ -1,9 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.27130.2036
+VisualStudioVersion = 15.0.27130.2010
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configuration", "Configuration", "{B6D7174C-9D72-40A8-A7D9-5A241BB0EDF9}"
+	ProjectSection(SolutionItems) = preProject
+		gulp-config.js = gulp-config.js
+		gulpfile.js = gulpfile.js
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Feature", "Feature", "{C48CF1C2-6372-4183-9B75-6DFD1A060117}"
 EndProject
@@ -31,7 +35,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InitialHelix.Foundation.Mod
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InitialHelix.Foundation.DependencyInjection", "Foundation\DependencyInjection\code\InitialHelix.Foundation.DependencyInjection.csproj", "{FE459132-C24A-4716-ABBC-757DFB65B579}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InitialHelix.Foundation.SitecoreExtensions", "InitialHelix.Foundation.SitecoreExtensions\InitialHelix.Foundation.SitecoreExtensions.csproj", "{47AD51B4-1CDD-4B7A-A2F1-B955750EEAD5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InitialHelix.Foundation.Extensions", "Foundation\Extensions\code\InitialHelix.Foundation.Extensions.csproj", "{A6A36219-AFD4-4C0D-999C-9DBBDCCEAA82}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Orm", "Orm", "{2B9C0CE2-F64C-4D2E-960A-F303D7E6A9BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InitialHelix.Foundation.Orm", "Foundation\Orm\code\InitialHelix.Foundation.Orm.csproj", "{36B102C7-0F29-460E-A5B8-0A741E6D3BC1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -55,10 +63,14 @@ Global
 		{FE459132-C24A-4716-ABBC-757DFB65B579}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FE459132-C24A-4716-ABBC-757DFB65B579}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FE459132-C24A-4716-ABBC-757DFB65B579}.Release|Any CPU.Build.0 = Release|Any CPU
-		{47AD51B4-1CDD-4B7A-A2F1-B955750EEAD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{47AD51B4-1CDD-4B7A-A2F1-B955750EEAD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{47AD51B4-1CDD-4B7A-A2F1-B955750EEAD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{47AD51B4-1CDD-4B7A-A2F1-B955750EEAD5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6A36219-AFD4-4C0D-999C-9DBBDCCEAA82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6A36219-AFD4-4C0D-999C-9DBBDCCEAA82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6A36219-AFD4-4C0D-999C-9DBBDCCEAA82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6A36219-AFD4-4C0D-999C-9DBBDCCEAA82}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36B102C7-0F29-460E-A5B8-0A741E6D3BC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36B102C7-0F29-460E-A5B8-0A741E6D3BC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36B102C7-0F29-460E-A5B8-0A741E6D3BC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36B102C7-0F29-460E-A5B8-0A741E6D3BC1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -74,7 +86,9 @@ Global
 		{38CA3DB4-C6B6-4C07-874B-338A350B43D7} = {4029E8CB-4231-4003-8642-01208BD2CE66}
 		{8907EDF4-583E-4D21-AC20-3F5E3D0D37B0} = {38CA3DB4-C6B6-4C07-874B-338A350B43D7}
 		{FE459132-C24A-4716-ABBC-757DFB65B579} = {A6784C45-F264-48F2-AE1A-D0596DA8A656}
-		{47AD51B4-1CDD-4B7A-A2F1-B955750EEAD5} = {B9621D7E-BBD0-4CE5-AB93-425C7CEC2EDD}
+		{A6A36219-AFD4-4C0D-999C-9DBBDCCEAA82} = {B9621D7E-BBD0-4CE5-AB93-425C7CEC2EDD}
+		{2B9C0CE2-F64C-4D2E-960A-F303D7E6A9BB} = {4029E8CB-4231-4003-8642-01208BD2CE66}
+		{36B102C7-0F29-460E-A5B8-0A741E6D3BC1} = {2B9C0CE2-F64C-4D2E-960A-F303D7E6A9BB}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {103BDFE1-CD63-41F0-9566-590A2A9022CF}
